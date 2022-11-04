@@ -1,0 +1,25 @@
+{
+    "name": "abaeza/my-first-librarie",
+    "description": "Esto es una libreria de prueba para practicar.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abaeza\\MyFirstLibrarie\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Abaeza\\MyFirstLibrarie\\Tests": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Angel Baeza",
+            "email": "ingangelbaeza@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
